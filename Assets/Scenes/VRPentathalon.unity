@@ -15956,15 +15956,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495981974}
-  m_LocalRotation: {x: 0.095503494, y: 0.7276477, z: -0.103514254, w: 0.67133653}
-  m_LocalPosition: {x: -8.46, y: 0.33689427, z: -48.32}
+  m_LocalRotation: {x: 0.12889335, y: 0.39904845, z: -0.05676813, w: 0.90604866}
+  m_LocalPosition: {x: 10.79, y: 0.33689427, z: -48.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2023946406}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 16.193, y: 94.61, z: 0}
+  m_LocalEulerAnglesHint: {x: 16.193, y: 47.54, z: 0}
 --- !u!1001 &1507018829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21834,39 +21834,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
+        type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1168066888}
     - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
         type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 67108864
-      objectReference: {fileID: 0}
-    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
-        type: 3}
-      propertyPath: m_LastHoverExited.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
-        type: 3}
       propertyPath: m_FirstHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2147319833}
-    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
-        type: 3}
-      propertyPath: m_FirstHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
-        type: 3}
-      propertyPath: m_FirstHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2713231023802278953, guid: 76f2d81384b656f4e8538dffcf49504d,
-        type: 3}
-      propertyPath: m_FirstHoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5576942830072562823, guid: 76f2d81384b656f4e8538dffcf49504d,
         type: 3}
       propertyPath: m_RootOrder
@@ -21939,7 +21919,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2098338467}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
