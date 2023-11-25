@@ -28,7 +28,6 @@ public class PistolController : Basketball
     [ContextMenu("Test Fire")]
     public void TriggerPull()
     {
-        Debug.Log("Multiple grab count = " + _interactable.multipleGrabTransformersCount);
         if ((_interactable.multipleGrabTransformersCount == 1 && _interactable.secondaryAttachTransform != null) || _interactable.secondaryAttachTransform == null)
         {
             Instantiate(_muzzleFlashPrefab, _rayOrigin.position + _muzzleFlashOffset, Quaternion.identity);

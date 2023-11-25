@@ -29,7 +29,6 @@ public class RocketBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("test");
         if (other.CompareTag("Target") || other.CompareTag("Ground"))
             DestroyThisWithExplosion();
     }
